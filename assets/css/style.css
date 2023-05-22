@@ -1,0 +1,293 @@
+/*Font*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+/*Variables */
+:root {
+  --main-color-1: #0d3f67;
+  --main-color-2: #ffc400;
+  --main-color-3: #25cad2;
+  --main-text-color: #fff;
+  --main-color-facebook: #1877f2;
+  --main-color-instagram: #c32aa3;
+  --main-color-twitter: #1da1f2;
+  --main-color-youtube: #ff0000;
+  --main-color-linkedin: #0a66c2;
+  --main-scroll-color: #ddd;
+}
+/*All*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Body*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--main-scroll-color);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color-1);
+  border-radius: 15px;
+}
+::-webkit-scrollbar-corner {
+  background-color: var(--main-scroll-color);
+}
+/*Selection*/
+::-moz-selection {
+  background-color: var(--main-color-3);
+  color: var(--main-text-color);
+}
+::selection {
+  background-color: var(--main-color-3);
+  color: var(--main-text-color);
+}
+/*Start Navbar*/
+nav {
+  background-color: var(--main-color-1) !important;
+}
+nav a {
+  color: var(--main-text-color) !important;
+}
+nav a.active,
+nav a:hover {
+  color: var(--main-color-3) !important;
+}
+.main-btn {
+  background-color: var(--main-color-2);
+  color: var(--main-color-1);
+  font-weight: bold;
+}
+.main-btn.suscribe {
+  background-color: var(--main-color-1);
+  color: var(--main-color-2);
+}
+nav div ul li:last-child a {
+  color: var(--main-color-2) !important;
+}
+nav div svg.i-search {
+  color: var(--main-color-3);
+}
+nav div .navbar-toggler[aria-expanded="false"] {
+  border: 3px solid var(--main-color-3) !important;
+}
+nav div .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+nav div .navbar-toggler svg {
+  color: var(--main-color-3);
+}
+nav div .navbar-toggler[aria-expanded="true"] {
+  border: 3px solid var(--main-color-2) !important;
+}
+nav div .navbar-toggler[aria-expanded="true"] svg {
+  color: var(--main-color-2) !important;
+}
+/*End Navbar*/
+
+/*Start Home*/
+.home {
+  background-color: var(--main-color-1);
+  min-height: calc(100vh - 66px);
+}
+/*End Home*/
+
+/*Start Services*/
+.main-title svg {
+  color: var(--main-color-2);
+}
+.main-title hr {
+  width: 150px;
+  height: 3px;
+  background-color: var(--main-color-3);
+}
+.services .parts .part h3 {
+  color: var(--main-color-2);
+  text-transform: uppercase;
+}
+.services .parts .part span svg:first-child {
+  color: #ddd !important;
+}
+
+.services .parts .part span svg:last-child {
+  color: var(--main-color-3) !important;
+}
+/*End Services*/
+
+/*Start Destinations*/
+.destinations .parts .go-to ul li a:hover {
+  color: var(--main-color-1) !important;
+  font-weight: bold;
+}
+.destinations .parts .part .image {
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+.destinations .parts .part .image::before {
+  position: absolute;
+  content: attr(data-im);
+  width: 100%;
+  height: 100%;
+  background-color: #25c9d292;
+  left: 100px;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+  padding-top: 50%;
+  color: var(--main-color-1);
+}
+.destinations .parts .part .image:hover::before {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+/*End Destinations*/
+
+/*Start About*/
+.about > div > p {
+  width: 50%;
+}
+/*End About*/
+
+/*Start Team*/
+.team div h2 {
+  color: var(--main-color-2);
+}
+.team div .parts .part {
+  position: relative;
+}
+.team div .parts .part > h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: var(--main-text-color);
+
+  width: 100%;
+}
+.team div .parts .part:hover h4 {
+  top: 0%;
+}
+.team div .parts .part:first-child > h4,
+.team div .parts .part:nth-child(2) > h4,
+.team div .parts .part:first-child > p,
+.team div .parts .part:nth-child(2) > p {
+  background-color: var(--main-color-3);
+}
+.team div .parts .part:last-child > h4,
+.team div .parts .part:nth-child(3) > h4,
+.team div .parts .part:last-child > p,
+.team div .parts .part:nth-child(3) > p {
+  background-color: var(--main-color-2);
+}
+/*End Team*/
+
+/*Start Bond*/
+.bond {
+  background-color: var(--main-color-1);
+}
+/*End Bond*/
+
+/*Start  Blog*/
+
+/*End Blog*/
+
+/*Start Contact*/
+.contact {
+  background-color: var(--main-color-2);
+}
+.contact form label {
+  color: var(--main-color-1);
+}
+.contact form input {
+  width: 55%;
+  outline: none;
+}
+.contact form input::-webkit-input-placeholder {
+  color: var(--main-text-color);
+}
+.contact form input::-moz-placeholder {
+  color: var(--main-text-color);
+}
+.contact form input:-ms-input-placeholder {
+  color: var(--main-text-color);
+}
+.contact form input::-ms-input-placeholder {
+  color: var(--main-text-color);
+}
+.contact form input::placeholder {
+  color: var(--main-text-color);
+}
+.contact form input {
+  border-bottom: 1px solid var(--main-text-color) !important;
+}
+/*End Contact*/
+/*Start Footer*/
+footer {
+  background-color: var(--main-color-1);
+  position: relative;
+}
+
+footer .parts .part p:nth-of-type(2) > span {
+  color: var(--main-color-3) !important;
+}
+
+footer .parts .part p:last-of-type > span {
+  color: var(--main-color-2) !important;
+}
+.facebook a .svg,
+.instagram a .svg,
+.twitter a .svg,
+.youtube a .svg,
+.linkedin a .svg {
+  width: 40px;
+  height: 30px;
+  margin-top: 5px;
+  font-size: 28px;
+  text-align: center;
+}
+.facebook {
+  background-color: var(--main-color-facebook);
+}
+.instagram {
+  background-color: var(--main-color-instagram);
+}
+.twitter {
+  background-color: var(--main-color-twitter);
+}
+.youtube {
+  background-color: var(--main-color-youtube);
+}
+.linkedin {
+  background-color: var(--main-color-linkedin);
+}
+footer > span {
+  width: 50px;
+  height: 50px;
+  background-color: #ffc400;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.6rem;
+  padding-top: 8px;
+}
+footer > span a svg {
+  color: var(--main-color-1);
+}
+/*End Footer*/

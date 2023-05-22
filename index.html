@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nature Website created with Bootstrap 5 , Css3 and Fontawesome "
+    />
+    <meta
+      name="keywords"
+      content="Nature , Website, Bootstrap 5 , Css3 , Fontawesome"
+    />
+    <meta name="author" content="Khazri" />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+    <title>Nature Website</title>
+    <!--Link Bootstrap 5 Css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!--Link Fontawesome 6 Css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--Link Css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!--Start Navbar-->
+    <!-- navbar-light bg-light -->
+    <nav class="navbar navbar-expand-lg position-sticky" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="assets/img/logo.png" alt="" width="40px" height="40px"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destinations">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item d-block d-lg-none">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+
+          <i
+            class="fa-solid fa-magnifying-glass d-none d-lg-block i-search"
+          ></i>
+        </div>
+        <button
+          class="rounded-pill border-0 px-3 py-2 ms-3 d-none d-lg-block main-btn"
+        >
+          Login
+        </button>
+      </div>
+    </nav>
+    <!--End Navbar-->
+
+    <!--Start Home-->
+    <section
+      class="home d-flex justify-content-center align-items-center"
+      id="home"
+    >
+      <div class="home-content text-center">
+        <h1 class="text-white">Welcome To Evergreen Nature</h1>
+        <p class="text-white-50 mb-5">
+          Lorem ipsum dolor sit amet Lorem ipsum dolor
+        </p>
+        <button
+          class="mx-auto rounded-pill border-0 px-3 py-2 d-block main-btn"
+        >
+          Get Started
+        </button>
+      </div>
+    </section>
+
+    <!--End Home-->
+
+    <!--Start Services-->
+    <section class="services text-center my-4" id="services" id="services">
+      <div class="main-title">
+        <i class="fa-brands fa-think-peaks fa-4x fw-bold mb-2"></i>
+        <h2 class="text-secondary">We are Good at</h2>
+        <p class="text-black-50">Lorem ipsum dolor</p>
+        <hr class="mx-auto" />
+      </div>
+      <div class="parts container">
+        <div class="row">
+          <div class="part col-sm-12 col-md-4 col-lg-4">
+            <span class="d-flex justify-content-center"
+              ><i class="fa-solid fa-1 fa-10x text-light"></i>
+
+              <i
+                class="fa-solid fa-leaf position-absolute align-self-end fa-4x text-secondary"
+              ></i>
+            </span>
+            <h3 class="my-4">Pellentesque in</h3>
+            <p>
+              Lorem ipsum dolor sit amet dolor sit ametLorem ipsum dolor sit
+              amet dolor sit amet
+            </p>
+          </div>
+
+          <div class="part col-sm-12 col-md-4 col-lg-4">
+            <span class="d-flex justify-content-center"
+              ><i class="fa-solid fa-2 fa-10x text-light"></i>
+              <i
+                class="fa-solid fa-person-hiking position-absolute align-self-end fa-4x text-secondary"
+              ></i>
+            </span>
+            <h3 class="my-4">Vivamus magna</h3>
+            <p>
+              Lorem ipsum dolor sit amet dolor sit amet Lorem ipsum dolor sit
+              amet dolor sit amet
+            </p>
+          </div>
+
+          <div class="part col-sm-12 col-md-4 col-lg-4">
+            <span class="d-flex justify-content-center"
+              ><i class="fa-solid fa-3 fa-10x text-light"></i>
+              <i
+                class="fa-solid fa-mountain position-absolute align-self-end fa-4x text-secondary"
+              ></i>
+            </span>
+            <h3 class="my-4">Lacinia eget</h3>
+            <p>
+              Lorem ipsum dolor sit amet dolor sit amet Lorem ipsum dolor sit
+              amet dolor sit amet
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--End Services-->
+
+    <!--Start Destinations-->
+    <section
+      class="destinations text-center my-4 bg-light py-4"
+      id="destinations"
+    >
+      <div class="main-title">
+        <i class="fa-brands fa-think-peaks fa-4x fw-bold mb-2"></i>
+        <h2 class="text-secondary">Our Destinations</h2>
+        <p class="text-black-50">Lorem ipsum dolor</p>
+        <hr class="mx-auto" />
+      </div>
+
+      <div class="parts container">
+        <div class="go-to py-4">
+          <ul
+            class="list-unstyled d-flex justify-content-center align-items-center text-decoration-none"
+          >
+            <li class="mx-3">
+              <a
+                class="text-decoration-none rounded-pill border-0 px-3 py-2 ms-3 d-block main-btn"
+                href=""
+                >All</a
+              >
+            </li>
+
+            <li class="mx-3">
+              <a class="text-decoration-none text-black-50" href="">Photos</a>
+            </li>
+            <li class="mx-3">
+              <a class="text-decoration-none text-black-50" href="">Groups</a>
+            </li>
+            <li class="mx-3">
+              <a class="text-decoration-none text-black-50" href="">Types</a>
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="part col-sm-12 col-md-6 col-lg-3 mb-4">
+            <div class="image" data-im="Hello">
+              <img src="assets/img/im1.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="part col-sm-12 col-md-6 col-lg-3 mb-4">
+            <div class="image" data-im="World">
+              <img src="assets/img/im2.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="part col-sm-12 col-md-6 col-lg-3 mb-4">
+            <div class="image" data-im="Lorem">
+              <img src="assets/img/im3.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="part col-sm-12 col-md-6 col-lg-3 mb-4">
+            <div class="image" data-im="Ipsum">
+              <img src="assets/img/im4.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="part col-sm-12 col-md-6 col-lg-3 mb-4">
+            <div class="image" data-im="Kevin">
+              <img src="assets/img/im5.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="part col-sm-12 col-md-6 col-lg-3 mb-4">
+            <div class="image" data-im="Pull">
+              <img src="assets/img/im6.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="part col-sm-12 col-md-6 col-lg-3 mb-4">
+            <div class="image" data-im="Semm">
+              <img src="assets/img/im7.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="part col-sm-12 col-md-6 col-lg-3 mb-4">
+            <div class="image" data-im="Qye">
+              <img src="assets/img/im8.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="mx-auto rounded-pill border-0 px-3 py-2 d-block main-btn mt-3"
+      >
+        Show More
+      </button>
+    </section>
+    <!--End  Destinations-->
+
+    <!--Start About-->
+    <section class="about my-4" id="about">
+      <div class="container">
+        <div class="main-title text-center">
+          <i class="fa-brands fa-think-peaks fa-4x fw-bold mb-2"></i>
+          <h2 class="text-secondary">About Us</h2>
+          <p class="text-black-50">Lorem ipsum dolor</p>
+          <hr class="mx-auto" />
+        </div>
+        <p class="text-center mx-auto my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat est
+          neque dolorum odio sequi architecto ratione molestias officiis harum
+          magnam!
+        </p>
+
+        <div class="parts d-flex justify-content-around align-content-center">
+          <div class="row">
+            <div
+              class="part col-sm-12 col-md-12 col-lg-5 text-center text-lg-start mb-4"
+            >
+              <h2 class="text-secondary">Retana Culpa</h2>
+              <p class="text-black-50">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
+                cum! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                consectetur adipisicing elit. Culpa, cum! Lorem ipsum dolor sit,
+                amet consectetur adipisicing elit. Culpa, cum! Lorem ipsum dolor
+                sit, amet consectetur adipisicing elit. Culpa, cum! Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Culpa, cum! Lorem
+                ipsum dolor sit, amet consectetur adipisicing elit. Culpa, cum!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
+                cum! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Culpa, cum!
+              </p>
+              <button
+                class="mx-auto mx-lg-0 rounded-pill border-0 px-3 py-2 d-block main-btn"
+              >
+                Read More
+              </button>
+            </div>
+            <div class="part col-sm-12 col-md-12 col-lg-6">
+              <img
+                src="assets/img/im13.jpg"
+                alt=""
+                class="img-fluid float-end"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End About-->
+
+    <!--Start Team-->
+    <section class="team text-center my-4 bg-light py-3" id="team">
+      <div class="container">
+        <h2 class="my-5">Meet Our Team</h2>
+        <p class="text-black-50 mb-5">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit
+        </p>
+        <div class="parts mt-4">
+          <div class="row">
+            <div class="part col-sm-12 col-md-6 col-lg-3 py-3">
+              <img src="assets/img/team1.jpg" alt="" class="img-fluid" />
+              <h4 class="py-2">Lorem</h4>
+              <p class="py-3 text-black-50">
+                Lorem ipsum dolor sit amet consectetur
+              </p>
+            </div>
+
+            <div class="part col-sm-12 col-md-6 col-lg-3 py-3">
+              <img src="assets/img/team1.jpg" alt="" class="img-fluid" />
+              <h4 class="py-2">Lorem</h4>
+              <p class="py-3 text-black-50">
+                Lorem ipsum dolor sit amet consectetur
+              </p>
+            </div>
+
+            <div class="part col-sm-12 col-md-6 col-lg-3 py-3">
+              <img src="assets/img/team1.jpg" alt="" class="img-fluid" />
+              <h4 class="py-2">Lorem</h4>
+              <p class="py-3 text-black-50">
+                Lorem ipsum dolor sit amet consectetur
+              </p>
+            </div>
+            <div class="part col-sm-12 col-md-6 col-lg-3 py-3">
+              <img src="assets/img/team1.jpg" alt="" class="img-fluid" />
+              <h4 class="py-2">Lorem</h4>
+              <p class="py-3 text-black-50">
+                Lorem ipsum dolor sit amet consectetur
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--End Team-->
+
+    <!--Start Icons-->
+    <section
+      class="icons d-flex justify-content-center align-items-center pb-4 text-black-50 gap-5"
+    >
+      <i class="fa-solid fa-mountain-city fa-3x"></i>
+      <i class="fa-solid fa-temperature-high fa-3x"></i>
+      <i class="fa-solid fa-tree fa-3x"></i>
+      <i class="fa-solid fa-water fa-3x"></i>
+      <i class="fa-solid fa-earth-americas fa-3x"></i>
+    </section>
+
+    <!--End Icons-->
+
+    <!--Start Bond-->
+    <section class="bond text-center py-4">
+      <h1 class="text-white">Welcome To Everyone</h1>
+      <p class="text-white-50">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, velit?
+      </p>
+      <button class="mx-auto rounded-pill border-0 px-3 py-2 d-block main-btn">
+        Welcome
+      </button>
+    </section>
+    <!--End Bond-->
+
+    <!--Start Blog-->
+    <section class="blog py-5 bg-light" id="blog">
+      <div class="container">
+        <div class="main-title text-center">
+          <i class="fa-brands fa-think-peaks fa-4x fw-bold mb-2"></i>
+          <h2 class="text-secondary">Read Our Blog</h2>
+          <p class="text-black-50">Lorem ipsum dolor</p>
+          <hr class="mx-auto" />
+        </div>
+        <div class="parts py-4">
+          <div class="row">
+            <div class="part col-sm-12 col-md-6 col-lg-4">
+              <div class="blog-image">
+                <img src="assets/img/im9.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="blog-text pt-3">
+                <span class="text-black-50 fw-bold">Jan 17 , 2023</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Expedita, aut?
+                </p>
+              </div>
+            </div>
+
+            <div class="part col-sm-12 col-md-6 col-lg-4">
+              <div class="blog-image">
+                <img src="assets/img/im10.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="blog-text pt-3">
+                <span class="text-black-50 fw-bold">Jan 17 , 2023</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Expedita, aut?
+                </p>
+              </div>
+            </div>
+            <div class="part col-sm-12 col-md-6 col-lg-4">
+              <div class="blog-image">
+                <img src="assets/img/im11.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="blog-text pt-3">
+                <span class="text-black-50 fw-bold">Jan 17 , 2023</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Expedita, aut?
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="mx-auto rounded-pill border-0 px-3 py-2 d-block main-btn my-4"
+          >
+            Read More
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--End Blog-->
+
+    <!--Start Contact-->
+
+    <section class="contact text-center text-lg-start pb-4" id="contact">
+      <form
+        class="d-flex flex-column flex-lg-row justify-content-center align-items-center"
+      >
+        <label for="my-email" class="me-5 fw-bold fs-5 mt-4 mt-lg-0">
+          Subscribe Here :</label
+        >
+        <input
+          type="email"
+          id="my-email"
+          class="me-lg-5 border-0 p-1 text-white bg-transparent mt-4 mt-lg-0"
+          placeholder="Enter Your Email"
+        />
+        <hr />
+        <button
+          class="rounded-pill border-0 px-3 py-2 d-block main-btn my-1 my-lg-4 suscribe"
+        >
+          Subscribe
+        </button>
+      </form>
+    </section>
+
+    <!--End Contact-->
+
+    <!--Start Footer-->
+    <footer class="py-4 text-white-50 text-center text-lg-start">
+      <div class="container">
+        <div class="parts">
+          <div class="row">
+            <div class="part col-lg-4">
+              <img
+                src="assets/img/logo.png"
+                alt=""
+                width="40px"
+                height="40px"
+              />
+              <p class="mt-4 mb-5">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat, inventore? Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Placeat, inventore?
+              </p>
+              <p class="mb-0">Created By <span class="fw-bold">Eng : mohamed gouda</span></p>
+              <p>&copy;2023 - <span class="fw-bold">Evergreen Nature</span></p>
+            </div>
+            <div class="part col-lg-2">
+              <h3 class="text-white">Links</h3>
+              <ul class="list-unstyled lh-lg">
+                <li
+                  <a class="nav-link text-white-50 pb-0" href="#home">Home</a>
+                </li>
+                <li>
+                  <a class="nav-link text-white-50 pb-0" href="#services"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a class="nav-link text-white-50 pb-0" href="#destinations"
+                    >Destinations</a
+                  >
+                </li>
+                <li>
+                  <a class="nav-link text-white-50 pb-0" href="#about">About</a>
+                </li>
+                <li>
+                  <a class="nav-link text-white-50 pb-0" href="#team">Team</a>
+                </li>
+                <li>
+                  <a class="nav-link text-white-50 pb-0" href="#blog">Blog</a>
+                </li>
+                <li>
+                  <a class="nav-link text-white-50 pb-0" href="#contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="part col-lg-2">
+              <h3 class="text-white">About Us</h3>
+              <ul class="list-unstyled lh-lg">
+                <li>Sign In</li>
+                <li>Register</li>
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>Support</li>
+              </ul>
+            </div>
+            <div class="part col-lg-4">
+              <h3 class="text-white">Contact Us</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, non
+              </p>
+              <button
+                class="rounded-pill border-0 px-3 py-2 d-block main-btn mx-auto mx-lg-0"
+              >
+                Contact Us
+              </button>
+              <ul
+                class="list-unstyled d-flex justify-content-center justify-content-lg-start align-items-center mt-4"
+              >
+                <li class="me-3 rounded-circle facebook">
+                  <a href=""
+                    ><i class="fa-brands fa-facebook text-white svg"></i
+                  ></a>
+                </li>
+                <li class="me-3 rounded-circle instagram">
+                  <a href=""
+                    ><i class="fa-brands fa-instagram text-white svg"></i
+                  ></a>
+                </li>
+                <li class="me-3 rounded-circle twitter">
+                  <a href=""><i class="fa-brands fa-twitter text-white svg"></i></a>
+                </li>
+                <li class="me-3 rounded-circle youtube">
+                  <a href=""><i class="fa-brands fa-youtube text-white svg"></i></a>
+                </li>
+                <li class="me-3 rounded-circle linkedin">
+                  <a href=""
+                    ><i class="fa-brands fa-linkedin text-white svg"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span>
+        <a href="#navbar"
+          ><i class="fa-solid fa-circle-chevron-up fa-bounce"></i
+        ></a>
+      </span>
+    </footer>
+    <!-- End Footer  -->
+    <!--Link Bootstrap 5 Js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js.map"></script>
+    <!--Link Fpnteawesome 6 Js-->
+    <!-- <script src="assets/js/all.min.js"></script> -->
+  </body>
+</html>
